@@ -1,6 +1,8 @@
 # Detector Guidance for Multi-Object Text-to-Image Generation
 
-[Luping Liu](https://luping-liu.github.io/)<sup>1</sup>, Zijian Zhang<sup>1</sup>, [Yi Ren](https://rayeren.github.io/)<sup>2</sup>, Rongjie Huang<sup>1</sup>, Xiang Yin<sup>2</sup>, Zhou Zhao<sup>1</sup>
+This repo is the official PyTorch implementation for [Detector Guidance for Multi-Object Text-to-Image Generation](https://arxiv.org/abs/2306.02236)
+
+by [Luping Liu](https://luping-liu.github.io/)<sup>1</sup>, Zijian Zhang<sup>1</sup>, [Yi Ren](https://rayeren.github.io/)<sup>2</sup>, Rongjie Huang<sup>1</sup>, Xiang Yin<sup>2</sup>, Zhou Zhao<sup>1</sup>.
 
 <sup>1</sup>Zhejiang University, <sup>2</sup>ByteDance AI Lab
 
@@ -9,3 +11,17 @@ In this work, we introduce Detector Guidance (DG), which integrates a latent obj
 Code will be released soon.
 
 ![](images/compare1.jpg)
+
+
+## References
+If you find this work useful for your research, please consider citing:
+```bib
+@misc{liu2023detector,
+      title={Detector Guidance for Multi-Object Text-to-Image Generation}, 
+      author={Luping Liu and Zijian Zhang and Yi Ren and Rongjie Huang and Xiang Yin and Zhou Zhao},
+      year={2023},
+      eprint={2306.02236},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
