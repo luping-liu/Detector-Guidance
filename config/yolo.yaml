@@ -1,0 +1,8 @@
+train:
+  image_size: 1024  #?
+  batch_size: 16
+  learning_rate: 1e-4
+  warmup_steps: 5000
+  use_accumulate: True
+  mixed_precision: 'fp16'
+  total_step: 72000
